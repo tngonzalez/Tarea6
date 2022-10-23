@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Juego de palabras</title>
+    <script src="js/main.js"></script>
+
+</head>
+<body>
+    <BODY>
+        <H2 style="text-align: center; color: white;">Juego del ahorcado</H2>
+        <FORM NAME=visor>
+           <TABLE width=547>
+           <TR>
+              <TD colspan=3 width=150 ALIGN=center><textarea name=displayHombre cols=15 rows=6></textarea>
+              <TD colspan=3 WIDTH=150 ALIGN=center><textarea name=displayLetras cols=15 rows=6></textarea>
+              <TD width=200>
+           <TR>
+              <TD colspan=6 width=300 ALIGN=center><INPUT NAME=displayPalabra SIZE=42>
+              <TD ALIGN=center>&nbsp;
+           <TR>
+              <td><input type=button name=botA value=" A " onClick="Juega(this.form, 'a')">
+              <td><input type=button name=botB value=" B " onClick="Juega(this.form, 'b')">
+              <td><input type=button name=botC value=" C " onClick="Juega(this.form, 'c')">
+              <td><input type=button name=botD value=" D " onClick="Juega(this.form, 'd')">
+              <td><input type=button name=botE value=" E " onClick="Juega(this.form, 'e')">
+              <td><input type=button name=botF value=" F " onClick="Juega(this.form, 'f')">
+              <td>
+            <tr>
+              <td><input type=button name=botG value=" G " onClick="Juega(this.form, 'g')">
+              <td><input type=button name=botH value=" H " onClick="Juega(this.form, 'h')">
+              <td><input type=button name=botI value=" I " onClick="Juega(this.form, 'i')">
+              <td><input type=button name=botJ value=" J " onClick="Juega(this.form, 'j')">
+              <td><input type=button name=botK value=" K " onClick="Juega(this.form, 'k')">
+              <td><input type=button name=botL value=" L " onClick="Juega(this.form, 'l')">
+              <td valign=middle>Partidas ganadas: <input type=text name=ganadas size=4 value=0>
+            <tr>
+              <td><input type=button name=botM value=" M " onClick="Juega(this.form, 'm')">
+              <td><input type=button name=botN value=" N " onClick="Juega(this.form, 'n')">
+              <td><input type=button name=botÑ value=" Ñ " onClick="Juega(this.form, 'ñ')">
+              <td><input type=button name=botO value=" O " onClick="Juega(this.form, 'o')">
+              <td><input type=button name=botP value=" P " onClick="Juega(this.form, 'p')">
+              <td><input type=button name=botQ value=" Q " onClick="Juega(this.form, 'q')">
+              <td valign=middle>Partidas perdidas: <input type=text name=perdidas size=4 value=0>
+            <tr>
+              <td><input type=button name=botR value=" R " onClick="Juega(this.form, 'r')">
+              <td><input type=button name=botS value=" S " onClick="Juega(this.form, 's')">
+              <td><input type=button name=botT value=" T " onClick="Juega(this.form, 't')">
+              <td><input type=button name=botU value=" U " onClick="Juega(this.form, 'u')">
+              <td><input type=button name=botV value=" V " onClick="Juega(this.form, 'v')">
+              <td><input type=button name=botW value=" W " onClick="Juega(this.form, 'w')">
+              <td>
+            <tr>
+              <td><input type=button name=botX value=" X " onClick="Juega(this.form, 'x')">
+              <td><input type=button name=botY value=" Y " onClick="Juega(this.form, 'y')">
+              <td><input type=button name=botZ value=" Z " onClick="Juega(this.form, 'z')">
+              <td colspan=3><input type=button name=Inicia value="  Juego nuevo " onClick="IniciaJuego(this.form)" style="width: 70%; height: 25px;">
+              <td><input type=button value=Limpiar name=B1 onClick="this.form.ganadas.value='0'; this.form.perdidas.value='0'" style="width: 70%; height: 25px;">
+          </TABLE>
+        </FORM>
+        </BODY>
+</body>
+</html>
